@@ -1,0 +1,28 @@
+.sprit{
+  background-image: url('../images/fabshop_images.png');
+  background-repeat: no-repeat;
+   display: inline-block;
+}
+.car{
+  width: 32px;
+  height: 22px;
+  background-position: -321px -42px;
+}
+@media (max-width: 600px){
+  .logo-content{
+    text-align: center;
+  }
+  .logo{
+    height: 25px;
+    width: 64px;
+  }
+}
+@media (max-width: 1023px) and (min-width: 601px){
+  .logo-content{
+    float: left;
+  }
+  .logo{
+    height: 33px;
+    width: 84px;
+  }
+}
