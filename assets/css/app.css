@@ -53,6 +53,7 @@
   justify-content: space-between;
   font-size: 1.5em;
   padding-top: 10px;
+  padding-bottom: 20px;
   color:#333;
 }
 
@@ -70,4 +71,33 @@
 
 #shipping{
   padding-top: 20px;
+  font-size: 0.9em;
+}
+
+.black{
+  color: black;
+  border: 1px solid black;
+}
+
+.p-top{
+  margin-top: 35px;
+  font-size: 0.9em;
+}
+
+.menu{
+  font-size: 0.9em;
+  color: black;
+}
+
+.black-nav{
+  color: black;
+  padding: 0 10px;
+}
+
+.caracteritics{
+  padding-top: 40px;
+}
+
+.accordion-title{
+  color: black;
 }
