@@ -26,3 +26,48 @@
     width: 84px;
   }
 }
+
+.small-figures{
+  display: flex;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.red-color{
+  color: #d0021b;
+}
+
+.bg-red{
+  background-color: #d0021b;
+  line-height: 10px;
+}
+
+.heart-favorites{
+  border: 1px solid #d0021b;
+}
+
+.icons-container{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  padding-top: 10px;
+  color:#333;
+}
+
+#description{
+  font-size: .9em;
+}
+
+.moredetails{
+  padding-left: 40px;
+}
+
+.second-col{
+  padding-top: 40px;
+}
+
+#shipping{
+  padding-top: 20px;
+}
