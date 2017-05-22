@@ -26,10 +26,16 @@
     width: 84px;
   }
 }
+body{
+  margin: 2rem;
+}
 
 .thumbnail {
   /*margin-bottom: 0;*/
   box-shadow: none;
+}
+.margin-left{
+  margin-left: 40px;
 }
 .orbit-previous,
 .orbit-next{
