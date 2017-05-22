@@ -27,12 +27,47 @@
   }
 }
 
+body{
+  font-size: 0.9em;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container-80{
+    padding-left:200px;
+    width: 98%;
+    margin: 0;
+  }
+}
+
+.images{
+  padding-top: 90px;
+  padding-right:0;
+
+}
+
+.principal-img{
+  padding-top:0;
+  margin-left:0;
+}
+
 .small-figures{
   display: flex;
 }
 
+.name-price{
+  padding-top: 85px;
+}
+
 .underline{
   text-decoration: underline;
+}
+
+.input-amount{
+  margin-top: 15px;
+}
+
+.free-shipping{
+margin: 10px 0 7px 0;
 }
 
 .red-color{
@@ -41,20 +76,28 @@
 
 .bg-red{
   background-color: #d0021b;
-  line-height: 10px;
+  margin-top:15px;
+  margin-left:15px;
+  padding: 11px 54px;
 }
 
 .heart-favorites{
   border: 1px solid #d0021b;
+  padding: 10px 13px;
+  margin-left: 5px;
 }
 
 .icons-container{
   display: flex;
   justify-content: space-between;
-  font-size: 1.5em;
-  padding-top: 10px;
+  font-size: 1.8em;
+  padding-top: 20px;
   padding-bottom: 20px;
   color:#333;
+}
+
+hr{
+  color: #EEEEEE;
 }
 
 #description{
