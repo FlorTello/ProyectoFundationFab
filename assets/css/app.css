@@ -87,6 +87,10 @@ margin: 10px 0 7px 0;
   margin-left: 5px;
 }
 
+.font-size{
+  font-size: 0.9em;
+}
+
 .icons-container{
   display: flex;
   justify-content: space-between;
@@ -100,8 +104,9 @@ hr{
   color: #EEEEEE;
 }
 
-#description{
-  font-size: .9em;
+.title{
+  padding-top: 1px;
+  padding-bottom: 7px;
 }
 
 .moredetails{
@@ -109,12 +114,17 @@ hr{
 }
 
 .second-col{
-  padding-top: 40px;
+  padding-top: 70px;
 }
 
 #shipping{
-  padding-top: 20px;
+  padding-top: 13px;
+  padding-bottom:8px;
   font-size: 0.9em;
+}
+
+#shipping ul li{
+  line-height: 28px;
 }
 
 .black{
