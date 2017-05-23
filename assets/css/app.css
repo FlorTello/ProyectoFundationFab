@@ -153,4 +153,23 @@ hr{
 
 .accordion-title{
   color: black;
+  font-size: 1.2em;
+}
+
+.accordion-title:hover{
+  color: black;
+}
+
+.sticky{
+  padding: 45px 45px 5px 45px;
+}
+
+.nav-bar-detail{
+  margin: 0 auto;
+}
+
+.menu{
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
