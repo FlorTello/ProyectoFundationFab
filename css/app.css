@@ -31,6 +31,9 @@
   /*margin-bottom: 0;*/
   box-shadow: none;
 }
+.owl-nav{
+  background: transparent !important;
+}
 .orbit-previous,
 .orbit-next{
   color: #272727;
