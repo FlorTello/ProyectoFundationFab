@@ -38,7 +38,7 @@
               </form>
           <ul class="menu align-right small-4 medium-4 columns">
               <li><a href="#"><span class="txt-gray">Login</span></a></li>
-              <li><a href="#"><i class=" fa fa-shopping-bag txt-gray"></i></a></li>
+              <li><button href="#" id="car" class="txt-gray" data-open="carritoCompras"><i class="fa fa-shopping-bag icon-margin" aria-hidden="true"></i></button></li>
               <li><a href="#"><span class="txt-gray">Register</span></a></li>
               <li class="new"><a href="#"><span class="new txt-white">new</span></a></li>
               <li class="hide-small"><a href="#"><span class="txt-gray">Fab Insider</span></a></li>
@@ -66,7 +66,7 @@
   <header class="hide-for-large">
         <div class="row">
           <div class="small-4 columns">
-            <a href="#"><i class="fa fa-bars txt-gray"></i></a>
+            <button class="menu-icon" type="button" data-open="menuHamburguesa"><span class="fa fa-bars"></span></button>
           </div>
           <div class="logo-mobile small-6 columns">
               <a href=""><img src="images/fab_logo_3_0.png" alt="" class="logo"></a>
@@ -75,20 +75,116 @@
               <a href=""><i class="fa fa-search txt-gray"></i></a>
             </div>
             <div class="small-1 columns">
-              <a href=""><i class="fa fa-shopping-bag txt-gray" aria-hidden="true"></i></a>
+              <button href="#" id="car" class="txt-grey" data-open="carritoCompras"><i class="fa fa-shopping-bag icon-margin" aria-hidden="true"></i></button>
           </div>
         </div>
+        <div class="off-canvas position-left" id="menuHamburguesa" data-off-canvas>
+            <ul class="accordion" data-accordion data-allow-all-closed="true">
+              <li>
+                  <a href="#" class="accordion-title noplus txt-black">Sign In</a>
+              </li>
+              <li>
+                  <a href="#" class="accordion-title noplus txt-black">New Arrivals</a>
+              </li>
+              <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title txt-black">Art</a>
+                    <div class="accordion-content" data-tab-content>
+                        <ul class="li-nostyle">
+                            <li><p><a href="#">Featured Styles</a><p></li>
+                            <li><p><a href="#">Featured Subject</a></p></li>
+                            <li><p><a href="#">Featured Types</a></p></li>
+                            <li><p><a href="#">All</a></p></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title txt-black">Home</a>
+                      <div class="accordion-content" data-tab-content>
+                          <ul class="li-nostyle">
+                              <li><p><a href="#">Home Décor</a><p></li>
+                              <li><p><a href="#">Kitchen</a></p></li>
+                              <li><p><a href="#">Dining</a></p></li>
+                              <li><p><a href="#">Bed &amp; Bath</a></p></li>
+                              <li><p><a href="#">Furniture &amp; Lighting </a></p></li>
+                              <li><p><a href="#">All</a></p></li>
+                          </ul>
+                      </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title txt-black">Women</a>
+                        <div class="accordion-content" data-tab-content>
+                            <ul class="li-nostyle">
+                                <li><p><a href="#">Accesories</a><p></li>
+                                <li><p><a href="#">Travel &amp; Everyday Carryalls</a></p></li>
+                                <li><p><a href="#">Jewelry</a></p></li>
+                                <li><p><a href="#">All</a></p></li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title txt-black">Men</a>
+                      <div class="accordion-content" data-tab-content>
+                          <ul class="li-nostyle">
+                              <li><p><a href="#">Accessories</a><p></li>
+                              <li><p><a href="#">Bags &amp; Travel</a></p></li>
+                              <li><p><a href="#">Clothing</a></p></li>
+                              <li><p><a href="#">All</a></p></li>
+                          </ul>
+                      </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title txt-black">Tech</a>
+                      <div class="accordion-content" data-tab-content>
+                          <ul class="li-nostyle">
+                              <li><p><a href="#">Smart Gadget Accessories</a><p></li>
+                              <li><p><a href="#">Audio &amp; Photography</a></p></li>
+                              <li><p><a href="#">Smart Gadgets</a></p></li>
+                              <li><p><a href="#">All</a></p></li>
+                          </ul>
+                      </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title txt-black">Fun</a>
+                      <div class="accordion-content" data-tab-content>
+                          <ul class="li-nostyle">
+                              <li><p><a href="#">Toy, Games &amp; Graft Kits</a><p></li>
+                              <li><p><a href="#">Cycling &amp; Yoga</a></p></li>
+                              <li><p><a href="#">Adult SHop</a></p></li>
+                              <li><p><a href="#">All</a></p></li>
+                          </ul>
+                      </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title txt-black">Features</a>
+                      <div class="accordion-content" data-tab-content>
+                          <ul class="li-nostyle">
+                              <li><p><a href="#">Broad City x Fab</a><p></li>
+                              <li><p><a href="#">Kelly Puissegur</a></p></li>
+                              <li><p><a href="#">Simone Massori</a></p></li>
+                              <li><p><a href="#">Fab Exclusives</a></p></li>
+                              <li><p><a href="#">Matt Bellassai x Fab</a></p></li>
+                              <li><p><a href="#">Star Wars</a></p></li>
+                              <li><p><a href="#">DIY</a></p></li>
+                              <li><p><a href="#">Geek Chic</a></p></li>
+                              <li><p><a href="#">Greenery</a></p></li>
+                              <li><p><a href="#">Pop Kween</a></p></li>
+                              <li><p><a href="#">Fab After Dark</a></p></li>
+                              <li><p><a href="#">Wedding Shop</a></p></li>
+                          </ul>
+                      </div>
+                  </li>
+                  <li>
+                      <a href="#" class="accordion-title noplus txt-black">Fab Insider</a>
+                  </li>
+                  <li>
+                      <a href="#" class="accordion-title noplus txt-black">Registry</a>
+                  </li>
+                  <li >
+                      <a href="#" class="accordion-title noplus txt-black">Contact Us</a>
+                  </li>
+              </ul>
+          </div>
   </header>
-
-  <section class="carrito-compras alert">
-    <button type="button add-to-bag red" class="button" data-toggle="offCanvasRight" id="add-to-bag">
-      <i class="fa fa-shopping-bag txt-white" aria-hidden="true"></i><span>&nbsp; Add to bag</span>
-    </button>
-    <div class="off-canvas position-right" id="offCanvasLeft1" data-off-canvas-content>
-      <h5>lsdldslkdskldslkds</h5>
-    </div>
-  </section>
-
   <section class="index">
 
   </section>
@@ -176,6 +272,96 @@
           </div>
         </div>
    </footer>
+   <div class="off-canvas position-right" id="carritoCompras" data-off-canvas>
+     <div class="mt-1">
+         <div class="nav-menu" id="menuPrincipal" style="margin-top: -15px; background: white;">
+               <header>
+                 <div class="row header-cart">
+                   <div class="large-6  small-6 columns">
+                     <a href="#" id="cart-close" class="button shopping-cart-checkout fa fa-angle-right "></a>
+                   </div>
+                   <div class="large-6 small-6 columns">
+                     <span>My bag</span>
+                   </div>
+                 </div>
+               </header>
+               <div class="message-cart expanded">
+                 <span class="fa fa-truck" aria-hidden="true"></span>
+                 <span class="fsMsg"><span class="freeShipLine2">Your Fab products are eligible for FREE SHIPPING**</span></span>
+               </div>
+               <div class="shopping-cart-item">
+                 <img class="shoping-cart-img" src="images/520922-300x300-1466510365-primary.png">
+                 <div class="shopping-cart-item-name">
+                   <a>Tower Hanger Rack</a>
+                   <select style="width:50%">
+                     <option value="1">1</option>
+                   </select>
+                 </div>
+                 <div class="shopping-cart-item-price">
+                   <span class="newGreyCrossCart"><i class="fa fa-trash-o"></i></span>
+                   <p class="shopping-cart-title">$85</p>
+                 </div>
+               </div>
+               <div class="message-arrival font-12">
+                 <span class="gris">
+                   Estimated Arrival: <span class=" verde">
+                     Jun. 15 - Jun 29</span></span>
+                   </div>
+                   <footer class="footer-cart padding-top">
+                     <ul class="vertical menu" data-accordion-menu>
+                       <li>
+                         <div>
+                           <span class="text-left">Order Summary</span>
+                           <span class="text-right padding-left-65"><i class="fa fa-lg fa-angle-double-up"></i></span>
+                         </div>
+                         <ul class="menu vertical nested">
+                             <li>
+                               <div>
+                                 <span class="text-left">Sub Total</span>
+                                 <span class="text-right padding-left-65">$85</span>
+                               </div>
+                             </li>
+                             <li>
+                               <div>
+                                 <span class="text-left">Estimated Shipping Free</span>
+                                 <span class="text-right padding-left-65 verde"><<i>FREE</i></span>
+                               </div>
+                             </li>
+                         </ul>
+                       </li>
+                       <li>
+                         <div>
+                           <span class="text-left">Total</span>
+                           <span class="text-right padding-left-65">$85</span>
+                         </div>
+                       </li>
+                     </ul>
+                   </footer>
+                   <div class="row button-shoping-cart">
+                     <div class="large-8  small-6 columns">
+                       <span>Checkout</span>
+                     </div>
+                     <div class="large-4 small-6 columns">
+                         <a href="#" class="button shopping-cart-checkout fa fa-angle-right"></a>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="small-4 columns">
+                   <div class="content-heart">
+                     <i class="fa fa-heart-o" aria-hidden="true"></i>
+                     <span> 222</span>
+                   </div>
+                 </div>
+               </div>
+               <div class="small-12 columns containerFlex">
+                 <i class="fa fa-facebook" aria-hidden="true"></i>
+                 <i class="fa fa-twitter" aria-hidden="true"></i>
+                 <i class="fa fa-tumblr" aria-hidden="true"></i>
+                 <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+               </div>
+             </div>
+
+
    <script src="js/vendor/jquery.js"></script>
    <script src="js/vendor/what-input.js"></script>
    <script src="js/vendor/foundation.min.js"></script>
