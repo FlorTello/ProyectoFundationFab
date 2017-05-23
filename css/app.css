@@ -427,6 +427,10 @@ footer h4{
   span.new {
   	display:none;
   }
+	.info-img{
+		margin-bottom: 280px;
+	}
+
 }
 @media (min-width: 640px){
   .line-gray{
@@ -438,7 +442,7 @@ footer h4{
   .line-gray-bottom{
   border-bottom: solid 1px rgba(193, 195, 193, 0.94);
   }
-}
-.info-img{
-    margin-bottom: 580px;
+	.info-img{
+		margin-bottom: 580px;
 	}
+}
