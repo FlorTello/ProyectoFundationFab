@@ -67,8 +67,8 @@
             </div>
           </div>
           <div class="row btn-bag-heart">
-            <a href="" class="button bg-red"><i class="fa fa-shopping-bag icon-margin"></i><strong> Add to Bag</strong></a>
-            <i class="fa fa-heart-o red-color  heart-favorites" aria-hidden="true"><span> 221</span></i>
+           <button href="#" id="car" type="button add-to-bag" class="button txt-grey bg-red" data-open="carritoCompras"><span class="fa fa-shopping-bag icon-margin" aria-hidden="true"></span> &nbsp; Add to bag</button>
+           <i class="fa fa-heart-o red-color  heart-favorites" aria-hidden="true"><span> 221</span></i>
           </div>
           <div class="row">
             <div class="small-7 columns end  icons-container">
@@ -266,6 +266,95 @@
       <img src="assets\images\Yellow_Winner.png" alt="">
     </div>
   </div>
+
+  <div class="off-canvas position-right" id="carritoCompras" data-off-canvas>
+   <div class="mt-1">
+       <div class="nav-menu" id="menuPrincipal" style="margin-top: -15px; background: white;">
+             <header>
+               <div class="row header-cart">
+                 <div class="large-6  small-6 columns">
+                   <a href="#" id="cart-close" class="button shopping-cart-checkout fa fa-angle-right "></a>
+                 </div>
+                 <div class="large-6 small-6 columns">
+                   <span>My bag</span>
+                 </div>
+               </div>
+             </header>
+             <div class="message-cart expanded">
+               <span class="fa fa-truck" aria-hidden="true"></span>
+               <span class="fsMsg"><span class="freeShipLine2">Your Fab products are eligible for FREE SHIPPING**</span></span>
+             </div>
+             <div class="shopping-cart-item">
+               <img class="shoping-cart-img" src="images/520922-300x300-1466510365-primary.png">
+               <div class="shopping-cart-item-name">
+                 <a>Tower Hanger Rack</a>
+                 <select style="width:50%">
+                   <option value="1">1</option>
+                 </select>
+               </div>
+               <div class="shopping-cart-item-price">
+                 <span class="newGreyCrossCart"><i class="fa fa-trash-o"></i></span>
+                 <p class="shopping-cart-title">$85</p>
+               </div>
+             </div>
+             <div class="message-arrival font-12">
+               <span class="gris">
+                 Estimated Arrival: <span class=" verde">
+                   Jun. 15 - Jun 29</span></span>
+                 </div>
+                 <footer class="footer-cart padding-top">
+                   <ul class="vertical menu" data-accordion-menu>
+                     <li>
+                       <div>
+                         <span class="text-left">Order Summary</span>
+                         <span class="text-right padding-left-65"><i class="fa fa-lg fa-angle-double-up"></i></span>
+                       </div>
+                       <ul class="menu vertical nested">
+                           <li>
+                             <div>
+                               <span class="text-left">Sub Total</span>
+                               <span class="text-right padding-left-65">$85</span>
+                             </div>
+                           </li>
+                           <li>
+                             <div>
+                               <span class="text-left">Estimated Shipping Free</span>
+                               <span class="text-right padding-left-65 verde"><<i>FREE</i></span>
+                             </div>
+                           </li>
+                       </ul>
+                     </li>
+                     <li>
+                       <div>
+                         <span class="text-left">Total</span>
+                         <span class="text-right padding-left-65">$85</span>
+                       </div>
+                     </li>
+                   </ul>
+                 </footer>
+                 <div class="row button-shoping-cart">
+                   <div class="large-8  small-6 columns">
+                     <span>Checkout</span>
+                   </div>
+                   <div class="large-4 small-6 columns">
+                       <a href="#" class="button shopping-cart-checkout fa fa-angle-right"></a>
+                   </div>
+                 </div>
+               </div>
+               <div class="small-4 columns">
+                 <div class="content-heart">
+                   <i class="fa fa-heart-o" aria-hidden="true"></i>
+                   <span> 222</span>
+                 </div>
+               </div>
+             </div>
+             <div class="small-12 columns containerFlex">
+               <i class="fa fa-facebook" aria-hidden="true"></i>
+               <i class="fa fa-twitter" aria-hidden="true"></i>
+               <i class="fa fa-tumblr" aria-hidden="true"></i>
+               <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+             </div>
+           </div>
   <script src="assets/js/vendor/jquery.js"></script>
   <script src="assets/js/vendor/what-input.js"></script>
   <script src="assets/js/vendor/foundation.min.js"></script>
