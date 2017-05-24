@@ -86,11 +86,11 @@ button.menu-icon{
 .headerTopBar {
 	border: 1px solid;
 }
-.row .columns {
+/*.row .columns {
 	padding-top: 1rem;
 	padding-left: 0;
 	height: 60px;
-}
+}*/
 .logo{
   width: 98px;
 }
