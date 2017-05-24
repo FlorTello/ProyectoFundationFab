@@ -73,11 +73,18 @@ button.menu-icon{
 .headerTopBar {
 	border: 1px solid;
 }
+<<<<<<< HEAD
 .row .columns {
 	padding-top: 1rem;
 	padding-left: 0;
 	height: 60px;
 }
+=======
+/*.row .columns {
+	padding-top: 1rem;
+	padding-left: 0;
+}*/
+>>>>>>> 0ab69a6a0817a6a79d8dd39ca77ba9335c65a074
 .logo{
   width: 98px;
 }
@@ -427,10 +434,13 @@ footer h4{
   span.new {
   	display:none;
   }
+<<<<<<< HEAD
 	.info-img{
 		margin-bottom: 280px;
 	}
 
+=======
+>>>>>>> 0ab69a6a0817a6a79d8dd39ca77ba9335c65a074
 }
 @media (min-width: 640px){
   .line-gray{
@@ -442,7 +452,186 @@ footer h4{
   .line-gray-bottom{
   border-bottom: solid 1px rgba(193, 195, 193, 0.94);
   }
+<<<<<<< HEAD
 	.info-img{
 		margin-bottom: 580px;
 	}
+=======
+
+}
+.sprit{
+  background-image: url('../images/fabshop_images.png');
+  background-repeat: no-repeat;
+   display: inline-block;
+}
+.car{
+  width: 32px;
+  height: 22px;
+  background-position: -321px -42px;
+}
+@media (max-width: 600px){
+  .logo-content{
+    text-align: center;
+  }
+  .logo{
+    height: 25px;
+    width: 64px;
+  }
+}
+@media (max-width: 1023px) and (min-width: 601px){
+  .logo-content{
+    float: left;
+  }
+  .logo{
+    height: 33px;
+    width: 84px;
+  }
+}
+
+body{
+  font-size: 0.9em;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container-80{
+    padding-left:200px;
+    width: 98%;
+    margin: 0;
+  }
+}
+
+.images{
+  padding-top: 90px;
+  padding-right:0;
+
+}
+
+.principal-img{
+  padding-top:0;
+  margin-left:0;
+}
+
+.small-figures{
+  display: flex;
+}
+
+.name-price{
+  padding-top: 85px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.input-amount{
+  margin-top: 15px;
+}
+
+.free-shipping{
+margin: 10px 0 7px 0;
+}
+
+.red-color{
+  color: #d0021b;
+}
+
+.bg-red{
+  background-color: #d0021b;
+  margin-top:15px;
+  margin-left:15px;
+  padding: 11px 54px;
+}
+
+.heart-favorites{
+  border: 1px solid #d0021b;
+  padding: 10px 13px;
+  margin-left: 5px;
+}
+
+.font-size{
+  font-size: 0.9em;
+}
+
+.icons-container{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color:#333;
+}
+
+hr{
+  color: #EEEEEE;
+}
+
+.title{
+  padding-top: 1px;
+  padding-bottom: 7px;
+}
+
+.moredetails{
+  padding-left: 40px;
+}
+
+.second-col{
+  padding-top: 70px;
+}
+
+#shipping{
+  padding-top: 13px;
+  padding-bottom:8px;
+  font-size: 0.9em;
+}
+
+#shipping ul li{
+  line-height: 28px;
+}
+
+.black{
+  color: black;
+  border: 1px solid black;
+}
+
+.p-top{
+  margin-top: 35px;
+  font-size: 0.9em;
+}
+
+.menu{
+  font-size: 0.9em;
+  color: black;
+}
+
+.black-nav{
+  color: black;
+  padding: 0 10px;
+}
+
+.caracteritics{
+  padding-top: 40px;
+}
+
+.accordion-title{
+  color: black;
+  font-size: 1.2em;
+}
+
+.accordion-title:hover{
+  color: black;
+}
+
+.sticky{
+  padding: 45px 45px 5px 45px;
+}
+
+.nav-bar-detail{
+  margin: 0 auto;
+}
+
+.menu{
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+>>>>>>> 0ab69a6a0817a6a79d8dd39ca77ba9335c65a074
 }
