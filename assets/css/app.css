@@ -475,12 +475,12 @@ body{
 }
 
 #images{
-  height: 500px;
+  height: 550px;
 }
+
 .images{
   padding-top: 90px;
   padding-right:0;
-
 }
 
 .principal-img{
@@ -543,6 +543,10 @@ hr{
   color: #EEEEEE;
 }
 
+#description{
+  height: 250px;
+}
+
 .title{
   padding-top: 1px;
   padding-bottom: 7px;
@@ -557,6 +561,7 @@ hr{
 }
 
 #shipping{
+  height: 210px;
   padding-top: 13px;
   padding-bottom:8px;
   font-size: 0.9em;
@@ -611,4 +616,9 @@ hr{
   display:flex;
   align-items: center;
   flex-wrap: wrap;
+}
+
+#CustomerReviews{
+  margin-top: -20px;
+  height: 90px;
 }
